@@ -20,5 +20,6 @@
     "script": ["background.js"],
     "persistent": false
   },
+  "permissions": ["activeTab"],
   "manifest_version": 2
 }
