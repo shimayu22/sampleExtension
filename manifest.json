@@ -17,7 +17,7 @@
     "128": "images/n_icon128.png"
   },
   "background": {
-    "script": ["background.js"],
+    "scripts": ["background.js"],
     "persistent": false
   },
   "permissions": ["activeTab"],
