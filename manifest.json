@@ -16,14 +16,14 @@
     "48": "images/n_icon48.png",
     "128": "images/n_icon128.png"
   },
+  "permissions": ["activeTab"],
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "js": ["jquery-3.5.1-min.js", "contentScript.js"]
+  }],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
-  "permissions": ["activeTab"],
-  "content_scripts": [{
-    "matches": ["https://www.nnn.ed.nico/*"],
-    "js": ["jquery-3.5.1.js"]
-  }],
   "manifest_version": 2
 }
